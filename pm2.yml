@@ -1,0 +1,9 @@
+apps:
+  - script: app.js
+    name: HIS API
+    watch: true
+    ignore_watch:
+      - logs/*
+      - .idea/*
+      - .git/*
+      - .DS_Store
